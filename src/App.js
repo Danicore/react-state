@@ -11,6 +11,14 @@ class App extends Component {
       {name: "Bilal", age: 22}
     ]
   }
+
+  render() {
+    return (
+      <div className="App">
+        {this.state.name}
+      </div>
+    )
+  }
 }
 
 export default App;
